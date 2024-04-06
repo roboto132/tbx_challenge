@@ -3,10 +3,10 @@ Instrucciones de Instalación y Uso
 Para poder correr el proyecto completo, sigue los pasos a continuación, en orden:
 
 Backend
-1) Abre una terminal posicionado en l raiz del proyecto
+1) Abre una terminal posicionado en la raiz del proyecto.
 Muevete al directorio del proyecto de backend:
     cd tbx_backend_challenge
-2) En esa ubicación y ejecuta:
+2) En esa ubicación, ejecuta:
     npm install
 3) Sobre la misma terminal anterior, ejecuta:
     npm start
@@ -15,7 +15,7 @@ Con estos pasos, tendrás tu servidor corriendo en el puerto 3000 esperando a se
 Ahora vamos a inicializar el front!
 
 Frontend
-4) Desde la terminal vuelve hacia atrás en el directorio:
+4) Desde la misma terminal vuelve hacia atrás en el directorio:
     cd ..
 5) Muevete al directorio del proyecto de frontend:
     cd tbx_frontend_challenge
