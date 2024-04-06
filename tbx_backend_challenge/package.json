@@ -1,0 +1,38 @@
+{
+  "name": "tbx_backend_challenge",
+  "version": "1.11.60",
+  "description": "backend to tbx",
+  "main": "src/app/app.js",
+  "scripts": {
+    "dev": "export NODE_ENV=aws_staging; nodemon ./src/app/app.js --inspect-brk",
+    "start": "node ./src/app/app.js",
+    "test": "mocha src/test/**/*.js",
+    "lint": "eslint src/",
+    "lint-fix": "eslint --fix src/",
+    "dependency-check": "depcheck ."
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chai": "^4.4.1",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "http-errors": "^1.8.0",
+    "http-status-codes": "^1.4.0"
+  },
+  "devDependencies": {
+    "chai-as-promised": "^7.1.1",
+    "depcheck": "^1.4.7",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.17.1",
+    "mocha": "^10.4.0",
+    "node-mocks-http": "^1.14.1",
+    "nodemon": "^2.0.22",
+    "sinon": "^8.1.1"
+  },
+  "author": "Matias Romano",
+  "license": "ISC"
+}

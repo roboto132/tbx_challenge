@@ -1,0 +1,60 @@
+{
+  "plugins": ["jest"],
+  "extends": ["eslint:recommended", "plugin:jest/recommended", "airbnb-base"],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "no-useless-escape": "off",
+    "prefer-const": "off",
+    "no-trailing-spaces":"off",
+    "dot-notation":"off",
+    "no-shadow":"off",
+    "no-undef":"off",
+    "import/no-extraneous-dependencies": "off",
+    "no-unused-expressions": "off",
+    "no-unused-vars":"off",
+    "function-paren-newline": "off",
+    "import/order": "off",
+    "import/extensions": "off",
+    "object-shorthand":"off",
+    "arrow-body-style": "off",
+    "camelcase":"off",
+    "no-else-return":"off",
+    "new-cap": "off",
+    "no-unneeded-ternary": "off",
+    "no-use-before-define": "off",
+    "no-sequences":"off",
+    "no-param-reassign": "off",
+    "operator-linebreak": "off",
+    "indent": "off",
+    "object-curly-newline": "off",
+    "prefer-promise-reject-errors": "off",
+    "no-underscore-dangle": "off",
+    "comma-dangle": "off",
+    "no-console": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 110,
+        "tabWidth": 2,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/no-jest-import": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error"
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "expect": true,
+    "assert": true
+  }
+}

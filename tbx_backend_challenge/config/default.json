@@ -1,0 +1,17 @@
+{
+  "userValidationRegex": "[0][0-9]$",
+  "port": 3000,
+  "locale": "de-DE",
+  "killTimeout": 0,
+  "services": {
+    "files": {
+      "files-ms": {
+        "url": {
+          "protocol": "https",
+          "hostname": "echo-serv.tbxnet.com",
+          "pathname": "/v1"
+        }
+      }
+    }
+  }
+}
