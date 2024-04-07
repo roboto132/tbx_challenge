@@ -1,0 +1,5 @@
+# Ignorar node_modules en backend
+tbx_backend_challenge/node_modules/
+
+# Ignorar node_modules en frontend
+tbx_frontend_challenge/node_modules/
