@@ -66,5 +66,7 @@ npm install
 npm run dev
 ```
 
+5. Abre un navegador de preferencia (recomendado: Chrome) y navega a la siguiente ubicación: http://127.0.0.1:5173/.
+
 
 ## Ahora, con tu primera visita al front, habrás consultado la API de nuestro servidor.
