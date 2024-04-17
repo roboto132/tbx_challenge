@@ -42,25 +42,25 @@ npm start
 
 ## Pasos para instalar el frontend del proyecto
 
-2. Ubicate en el directorio del raiz del proyecto con el siguiente comando:
+1. Ubicate en el directorio del raiz del proyecto con el siguiente comando:
 
 ```bash
 cd ..
 ```
 
-3. Ubicate en el directorio del frontend ejecutando el siguiente comando:
+2. Ubicate en el directorio del frontend ejecutando el siguiente comando:
 
 ```bash
 cd tbx_frontend_challenge
 ```
 
-4. Instala todas las dependencias del proyecto frontend con el siguiente comando:
+3. Instala todas las dependencias del proyecto frontend con el siguiente comando:
 
 ```bash
 npm install
 ```
 
-5. Inicia el proyecto frontend con el siguiente comando:
+4. Inicia el proyecto frontend con el siguiente comando:
 
 ```bash
 npm run dev
