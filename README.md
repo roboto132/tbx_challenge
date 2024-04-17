@@ -1,32 +1,70 @@
 # tbx_challenge
-Instrucciones de Instalación y Uso
-Para poder correr el proyecto completo, sigue los pasos a continuación, en orden:
 
-Backend
-1) Abre una terminal posicionado en la raiz del proyecto.
-Muevete al directorio del proyecto de backend:
-    cd tbx_backend_challenge
-2) En esa ubicación, ejecuta:
-    npm install
-3) Sobre la misma terminal anterior, ejecuta:
-    npm start
+Bienvenido al proyecto de la prueba tecnica de toolbox.
 
-Con estos pasos, tendrás tu servidor corriendo en el puerto 3000 esperando a ser usado.
-Ahora vamos a inicializar el front!
+Este proyecto consiste en desarrollar una aplicación completa dividida en tres partes: un backend API utilizando Node.js y Express, un frontend cliente utilizando Bootstrap y React. El objetivo es consumir datos de un API externo proporcionado, reformatearlos y mostrarlos de manera ordenada en el frontend.
 
-Frontend
-4) Desde la misma terminal vuelve hacia atrás en el directorio:
-    cd ..
-5) Muevete al directorio del proyecto de frontend:
-    cd tbx_frontend_challenge
-6) En esa ubicación y ejecuta:
-    npm install
-7) Sobre la misma terminal anterior, ejecuta:
-    npm run dev
+Para poder ejecutar este proyecto en tu computadora, necesitas tener instalado node.js en tu computadora. Puedes descargarlo desde su pagina oficial: https://nodejs.org/es/
 
-8) Abre un navegador de preferencia (recomendado: Chrome) y navega a la siguiente ubicación: http://127.0.0.1:5173/.
+*Nota*: Este proyecto fue desarrollado con node por lo que necesitas tenerlo instalado
 
-Ahora, con tu primera visita al front, habrás consultado la API de nuestro servidor.
+## Pasos para instalar el backend del proyecto
 
-Contacto
-Para cualquier consulta, contáctame por correo electrónico: romanomatias99@gmail.com.
+1. Clonar el repositorio de github ejecutando el siguiente comando:
+
+```bash
+git clone https://github.com/roboto132/tbx_challenge
+```
+
+2. Ubicate en el directorio del proyecto ejecutando el siguiente comando:
+
+```bash
+cd tbx_challenge
+```
+
+3. Ubicate en el directorio del backend ejecutando el siguiente comando:
+
+```bash
+cd tbx_backend_challenge
+```
+
+4. Instala todas las dependencias del proyecto backend con el siguiente comando:
+
+```bash
+npm install
+```
+
+5. Inicia el proyecto backend con el siguiente comando:
+
+```bash
+npm start
+```
+
+## Pasos para instalar el frontend del proyecto
+
+2. Ubicate en el directorio del raiz del proyecto con el siguiente comando:
+
+```bash
+cd ..
+```
+
+3. Ubicate en el directorio del frontend ejecutando el siguiente comando:
+
+```bash
+cd tbx_frontend_challenge
+```
+
+4. Instala todas las dependencias del proyecto frontend con el siguiente comando:
+
+```bash
+npm install
+```
+
+5. Inicia el proyecto frontend con el siguiente comando:
+
+```bash
+npm run dev
+```
+
+
+## Ahora, con tu primera visita al front, habrás consultado la API de nuestro servidor.
